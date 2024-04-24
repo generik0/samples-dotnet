@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TemporalioSamples.Encryption.CodecServer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:61535;http://localhost:61536"
+    }
+  }
+}

@@ -2,7 +2,7 @@ using Temporalio.Activities;
 
 namespace TemporalioSamples.WorkerVersioning;
 
-public static class MyActivities
+public sealed class MyActivities
 {
     [Activity]
     public static string Greet(string text)

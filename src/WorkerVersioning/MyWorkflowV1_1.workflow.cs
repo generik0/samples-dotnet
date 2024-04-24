@@ -17,7 +17,7 @@ public class MyWorkflowV1Dot1
     private bool shouldFinish;
 
     [WorkflowRun]
-    public async Task RunAsync()
+    public async Task RunAsync(string testid)
     {
         Workflow.Logger.LogInformation("Running workflow V1.1");
         await Workflow.WaitConditionAsync(() => shouldFinish);
